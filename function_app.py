@@ -5,6 +5,7 @@ from ai_extractor import extract_entities
 from rom_engine import generate_rom
 from database import save_estimate
 
+
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 @app.route(route="generate_rom_api", methods=["GET", "POST"], auth_level=func.AuthLevel.ANONYMOUS)
