@@ -8,9 +8,9 @@ from database import save_estimate
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
-@app.route(route="generate-rom", methods=["POST"], auth_level=func.AuthLevel.ANONYMOUS)
+@app.route(route="generate_rom_api", methods=["POST"], auth_level=func.AuthLevel.ANONYMOUS)
 def generate_rom_api(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Processing generate-rom request')
+    logging.info('Processing generate_rom_api request')
     
     try:
         # Parse request body
