@@ -3,7 +3,7 @@ import json
 import logging
 
 from ai_extractor import extract_entities
-from rom_engine import generate_rom
+from rom_engine import generate_rom_api
 from database import save_estimate
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
