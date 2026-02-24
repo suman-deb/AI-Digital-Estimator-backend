@@ -1,5 +1,5 @@
 azure-functions
-openai
+openai>=1.30.0
 azure-cosmos
 azure-identity
 python-dotenv
