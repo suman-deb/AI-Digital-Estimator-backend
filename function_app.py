@@ -55,7 +55,7 @@ def generate_rom_api(req: func.HttpRequest) -> func.HttpResponse:
 
         # Step 3: ROM Calculation
         try:
-            rom_result = generate_rom(extracted, rate_card)
+            rom_result = generate_rom_api(extracted, rate_card)
             logging.info(f"ROM result: {rom_result}")
         except Exception as e:
             logging.error(f"ROM calculation failed: {e}")

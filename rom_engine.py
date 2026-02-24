@@ -1,5 +1,5 @@
 
-def generate_rom(extracted_data, rate_card):
+def generate_rom_api(extracted_data, rate_card):
     timeline = extracted_data.get("timeline_months", 1)
     complexity = extracted_data.get("complexity", "Medium")
 
