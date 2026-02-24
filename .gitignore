@@ -1,4 +1,4 @@
 local.settings.json
 __pycache__/
 *.pyc
-.env
+.envlocal.settings.json
