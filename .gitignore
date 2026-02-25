@@ -1,4 +1,13 @@
-local.settings.json
-__pycache__/
+l__pycache__/
 *.pyc
-.envlocal.settings.json
+*.pyo
+*.pyd
+.Python
+local.settings.json
+.venv/
+venv/
+*.PublishSettings
+.python_packages/
+.vscode/
+.DS_Store
+.env
