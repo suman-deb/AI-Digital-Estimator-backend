@@ -13,7 +13,7 @@ def generate_rom_api(req: func.HttpRequest) -> func.HttpResponse:
     
     # CORS Headers
     headers = {
-        'Access-Control-Allow-Origin': 'https://zealous-bush-08e66e603.4.azurestaticapps.net',
+        'Access-Control-Allow-Origin': 'https://jolly-hill-0b254a703.6.azurestaticapps.net',
         'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type'
     }
